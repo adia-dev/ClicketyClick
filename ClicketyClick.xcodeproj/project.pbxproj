@@ -14,6 +14,12 @@
 		F86357C62AF5B74D00C22E5A /* ClicketyClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357C52AF5B74D00C22E5A /* ClicketyClickTests.swift */; };
 		F86357D02AF5B74D00C22E5A /* ClicketyClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357CF2AF5B74D00C22E5A /* ClicketyClickUITests.swift */; };
 		F86357D22AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */; };
+		F86357DF2AF5B78900C22E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357DE2AF5B78900C22E5A /* AppDelegate.swift */; };
+		F86357E12AF5B7A300C22E5A /* KeyboardEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357E02AF5B7A300C22E5A /* KeyboardEventHandler.swift */; };
+		F86357E32AF5B7B400C22E5A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357E22AF5B7B400C22E5A /* SoundPlayer.swift */; };
+		F86357E82AF5B84C00C22E5A /* key.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E52AF5B84C00C22E5A /* key.m4a */; };
+		F86357E92AF5B84C00C22E5A /* keyReleased.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E62AF5B84C00C22E5A /* keyReleased.m4a */; };
+		F86357EA2AF5B84C00C22E5A /* keyPressed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E72AF5B84C00C22E5A /* keyPressed.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		F86357CB2AF5B74D00C22E5A /* ClicketyClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClicketyClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86357CF2AF5B74D00C22E5A /* ClicketyClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickUITests.swift; sourceTree = "<group>"; };
 		F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F86357DE2AF5B78900C22E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F86357E02AF5B7A300C22E5A /* KeyboardEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventHandler.swift; sourceTree = "<group>"; };
+		F86357E22AF5B7B400C22E5A /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		F86357E52AF5B84C00C22E5A /* key.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.m4a; sourceTree = "<group>"; };
+		F86357E62AF5B84C00C22E5A /* keyReleased.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = keyReleased.m4a; sourceTree = "<group>"; };
+		F86357E72AF5B84C00C22E5A /* keyPressed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = keyPressed.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,15 @@
 		F86357B22AF5B74C00C22E5A /* ClicketyClick */ = {
 			isa = PBXGroup;
 			children = (
+				F86357E42AF5B84C00C22E5A /* Sounds */,
 				F86357B32AF5B74C00C22E5A /* ClicketyClickApp.swift */,
 				F86357B52AF5B74C00C22E5A /* ContentView.swift */,
 				F86357B72AF5B74D00C22E5A /* Assets.xcassets */,
 				F86357BC2AF5B74D00C22E5A /* ClicketyClick.entitlements */,
 				F86357B92AF5B74D00C22E5A /* Preview Content */,
+				F86357DE2AF5B78900C22E5A /* AppDelegate.swift */,
+				F86357E02AF5B7A300C22E5A /* KeyboardEventHandler.swift */,
+				F86357E22AF5B7B400C22E5A /* SoundPlayer.swift */,
 			);
 			path = ClicketyClick;
 			sourceTree = "<group>";
@@ -127,6 +143,17 @@
 				F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */,
 			);
 			path = ClicketyClickUITests;
+			sourceTree = "<group>";
+		};
+		F86357E42AF5B84C00C22E5A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F86357E52AF5B84C00C22E5A /* key.m4a */,
+				F86357E62AF5B84C00C22E5A /* keyReleased.m4a */,
+				F86357E72AF5B84C00C22E5A /* keyPressed.m4a */,
+			);
+			name = Sounds;
+			path = ../../../../../Downloads/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86357E82AF5B84C00C22E5A /* key.m4a in Resources */,
+				F86357EA2AF5B84C00C22E5A /* keyPressed.m4a in Resources */,
+				F86357E92AF5B84C00C22E5A /* keyReleased.m4a in Resources */,
 				F86357BB2AF5B74D00C22E5A /* Preview Assets.xcassets in Resources */,
 				F86357B82AF5B74D00C22E5A /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86357E32AF5B7B400C22E5A /* SoundPlayer.swift in Sources */,
+				F86357DF2AF5B78900C22E5A /* AppDelegate.swift in Sources */,
 				F86357B62AF5B74C00C22E5A /* ContentView.swift in Sources */,
+				F86357E12AF5B7A300C22E5A /* KeyboardEventHandler.swift in Sources */,
 				F86357B42AF5B74C00C22E5A /* ClicketyClickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
