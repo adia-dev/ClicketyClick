@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F86357B42AF5B74C00C22E5A /* ClicketyClickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357B32AF5B74C00C22E5A /* ClicketyClickApp.swift */; };
+		F86357B62AF5B74C00C22E5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357B52AF5B74C00C22E5A /* ContentView.swift */; };
+		F86357B82AF5B74D00C22E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86357B72AF5B74D00C22E5A /* Assets.xcassets */; };
+		F86357BB2AF5B74D00C22E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86357BA2AF5B74D00C22E5A /* Preview Assets.xcassets */; };
+		F86357C62AF5B74D00C22E5A /* ClicketyClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357C52AF5B74D00C22E5A /* ClicketyClickTests.swift */; };
+		F86357D02AF5B74D00C22E5A /* ClicketyClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357CF2AF5B74D00C22E5A /* ClicketyClickUITests.swift */; };
+		F86357D22AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F86357C22AF5B74D00C22E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F86357A82AF5B74C00C22E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F86357AF2AF5B74C00C22E5A;
+			remoteInfo = ClicketyClick;
+		};
+		F86357CC2AF5B74D00C22E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F86357A82AF5B74C00C22E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F86357AF2AF5B74C00C22E5A;
+			remoteInfo = ClicketyClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F86357B02AF5B74C00C22E5A /* ClicketyClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClicketyClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86357B32AF5B74C00C22E5A /* ClicketyClickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickApp.swift; sourceTree = "<group>"; };
+		F86357B52AF5B74C00C22E5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F86357B72AF5B74D00C22E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F86357BA2AF5B74D00C22E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F86357BC2AF5B74D00C22E5A /* ClicketyClick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClicketyClick.entitlements; sourceTree = "<group>"; };
+		F86357C12AF5B74D00C22E5A /* ClicketyClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClicketyClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86357C52AF5B74D00C22E5A /* ClicketyClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickTests.swift; sourceTree = "<group>"; };
+		F86357CB2AF5B74D00C22E5A /* ClicketyClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClicketyClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86357CF2AF5B74D00C22E5A /* ClicketyClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickUITests.swift; sourceTree = "<group>"; };
+		F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86357AD2AF5B74C00C22E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357BE2AF5B74D00C22E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357C82AF5B74D00C22E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86357A72AF5B74C00C22E5A = {
+			isa = PBXGroup;
+			children = (
+				F86357B22AF5B74C00C22E5A /* ClicketyClick */,
+				F86357C42AF5B74D00C22E5A /* ClicketyClickTests */,
+				F86357CE2AF5B74D00C22E5A /* ClicketyClickUITests */,
+				F86357B12AF5B74C00C22E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F86357B12AF5B74C00C22E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86357B02AF5B74C00C22E5A /* ClicketyClick.app */,
+				F86357C12AF5B74D00C22E5A /* ClicketyClickTests.xctest */,
+				F86357CB2AF5B74D00C22E5A /* ClicketyClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86357B22AF5B74C00C22E5A /* ClicketyClick */ = {
+			isa = PBXGroup;
+			children = (
+				F86357B32AF5B74C00C22E5A /* ClicketyClickApp.swift */,
+				F86357B52AF5B74C00C22E5A /* ContentView.swift */,
+				F86357B72AF5B74D00C22E5A /* Assets.xcassets */,
+				F86357BC2AF5B74D00C22E5A /* ClicketyClick.entitlements */,
+				F86357B92AF5B74D00C22E5A /* Preview Content */,
+			);
+			path = ClicketyClick;
+			sourceTree = "<group>";
+		};
+		F86357B92AF5B74D00C22E5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F86357BA2AF5B74D00C22E5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F86357C42AF5B74D00C22E5A /* ClicketyClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				F86357C52AF5B74D00C22E5A /* ClicketyClickTests.swift */,
+			);
+			path = ClicketyClickTests;
+			sourceTree = "<group>";
+		};
+		F86357CE2AF5B74D00C22E5A /* ClicketyClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F86357CF2AF5B74D00C22E5A /* ClicketyClickUITests.swift */,
+				F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */,
+			);
+			path = ClicketyClickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86357AF2AF5B74C00C22E5A /* ClicketyClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86357D52AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClick" */;
+			buildPhases = (
+				F86357AC2AF5B74C00C22E5A /* Sources */,
+				F86357AD2AF5B74C00C22E5A /* Frameworks */,
+				F86357AE2AF5B74C00C22E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClicketyClick;
+			productName = ClicketyClick;
+			productReference = F86357B02AF5B74C00C22E5A /* ClicketyClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F86357C02AF5B74D00C22E5A /* ClicketyClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86357D82AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClickTests" */;
+			buildPhases = (
+				F86357BD2AF5B74D00C22E5A /* Sources */,
+				F86357BE2AF5B74D00C22E5A /* Frameworks */,
+				F86357BF2AF5B74D00C22E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F86357C32AF5B74D00C22E5A /* PBXTargetDependency */,
+			);
+			name = ClicketyClickTests;
+			productName = ClicketyClickTests;
+			productReference = F86357C12AF5B74D00C22E5A /* ClicketyClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F86357CA2AF5B74D00C22E5A /* ClicketyClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86357DB2AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClickUITests" */;
+			buildPhases = (
+				F86357C72AF5B74D00C22E5A /* Sources */,
+				F86357C82AF5B74D00C22E5A /* Frameworks */,
+				F86357C92AF5B74D00C22E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F86357CD2AF5B74D00C22E5A /* PBXTargetDependency */,
+			);
+			name = ClicketyClickUITests;
+			productName = ClicketyClickUITests;
+			productReference = F86357CB2AF5B74D00C22E5A /* ClicketyClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86357A82AF5B74C00C22E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F86357AF2AF5B74C00C22E5A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F86357C02AF5B74D00C22E5A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F86357AF2AF5B74C00C22E5A;
+					};
+					F86357CA2AF5B74D00C22E5A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F86357AF2AF5B74C00C22E5A;
+					};
+				};
+			};
+			buildConfigurationList = F86357AB2AF5B74C00C22E5A /* Build configuration list for PBXProject "ClicketyClick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86357A72AF5B74C00C22E5A;
+			productRefGroup = F86357B12AF5B74C00C22E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86357AF2AF5B74C00C22E5A /* ClicketyClick */,
+				F86357C02AF5B74D00C22E5A /* ClicketyClickTests */,
+				F86357CA2AF5B74D00C22E5A /* ClicketyClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86357AE2AF5B74C00C22E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86357BB2AF5B74D00C22E5A /* Preview Assets.xcassets in Resources */,
+				F86357B82AF5B74D00C22E5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357BF2AF5B74D00C22E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357C92AF5B74D00C22E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86357AC2AF5B74C00C22E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86357B62AF5B74C00C22E5A /* ContentView.swift in Sources */,
+				F86357B42AF5B74C00C22E5A /* ClicketyClickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357BD2AF5B74D00C22E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86357C62AF5B74D00C22E5A /* ClicketyClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86357C72AF5B74D00C22E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86357D02AF5B74D00C22E5A /* ClicketyClickUITests.swift in Sources */,
+				F86357D22AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F86357C32AF5B74D00C22E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F86357AF2AF5B74C00C22E5A /* ClicketyClick */;
+			targetProxy = F86357C22AF5B74D00C22E5A /* PBXContainerItemProxy */;
+		};
+		F86357CD2AF5B74D00C22E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F86357AF2AF5B74C00C22E5A /* ClicketyClick */;
+			targetProxy = F86357CC2AF5B74D00C22E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F86357D32AF5B74D00C22E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F86357D42AF5B74D00C22E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F86357D62AF5B74D00C22E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClicketyClick/ClicketyClick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClicketyClick/Preview Content\"";
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F86357D72AF5B74D00C22E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClicketyClick/ClicketyClick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClicketyClick/Preview Content\"";
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F86357D92AF5B74D00C22E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClicketyClick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClicketyClick";
+			};
+			name = Debug;
+		};
+		F86357DA2AF5B74D00C22E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClicketyClick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClicketyClick";
+			};
+			name = Release;
+		};
+		F86357DC2AF5B74D00C22E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ClicketyClick;
+			};
+			name = Debug;
+		};
+		F86357DD2AF5B74D00C22E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQQ39ZZJZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adia.dev.ClicketyClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ClicketyClick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86357AB2AF5B74C00C22E5A /* Build configuration list for PBXProject "ClicketyClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86357D32AF5B74D00C22E5A /* Debug */,
+				F86357D42AF5B74D00C22E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86357D52AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86357D62AF5B74D00C22E5A /* Debug */,
+				F86357D72AF5B74D00C22E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86357D82AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86357D92AF5B74D00C22E5A /* Debug */,
+				F86357DA2AF5B74D00C22E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86357DB2AF5B74D00C22E5A /* Build configuration list for PBXNativeTarget "ClicketyClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86357DC2AF5B74D00C22E5A /* Debug */,
+				F86357DD2AF5B74D00C22E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86357A82AF5B74C00C22E5A /* Project object */;
+}
