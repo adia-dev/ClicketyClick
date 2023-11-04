@@ -40,10 +40,6 @@ class SoundPlayer {
                 soundPlayers[identifier] = player
             }
         }
-        
-        for (key, _) in soundPlayers {
-            print(key)
-        }
     }
 
     static func playSound(for keyName: String, state keyState: KeyState = .pressed) {

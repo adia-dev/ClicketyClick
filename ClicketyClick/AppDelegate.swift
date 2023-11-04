@@ -5,19 +5,39 @@
 //  Created by Abdoulaye Dia on 04/11/2023.
 //
 
-import Foundation
 import Cocoa
+import Foundation
+import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     var keyboardEventHandler: KeyboardEventHandler?
+    var statusItem: NSStatusItem?
+    var popOver = NSPopover()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         keyboardEventHandler = KeyboardEventHandler()
-        NSEvent.addLocalMonitorForEvents(matching: [.keyDown, .keyUp], handler: { (event) -> NSEvent? in
+        NSEvent.addLocalMonitorForEvents(matching: [.keyDown, .keyUp], handler: { event -> NSEvent? in
             self.keyboardEventHandler?.handle(event: event)
-            return nil  // Suppress the default system beep by returning nil
+            return nil // Suppress the default system beep by returning nil
         })
+
+        let menuView = MenuView()
+
+        popOver.behavior = .transient
+        popOver.animates = true
+
+        popOver.contentViewController = NSViewController()
+        popOver.contentViewController?.view = NSHostingView(rootView: menuView)
         
+        popOver.contentViewController?.view.window?.makeKey()
+
+        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+
+        if let MenuButton = statusItem?.button {
+            MenuButton.image = NSImage(systemSymbolName: "keyboard", accessibilityDescription: nil)
+            MenuButton.action = #selector(MenuButtonToggle)
+        }
+
         // SoundPlayer.loadSounds() <- This returns a warning on the console
         /*
          * AddInstanceForFactory: No factory registered for id <CFUUID 0x600000XXXXXX>
@@ -32,5 +52,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
          *
          */
     }
-}
 
+    @objc func MenuButtonToggle(sender: AnyObject) {
+        if popOver.isShown{
+            popOver.performClose(sender)
+        }else {
+            if let menuButton = statusItem?.button {
+                popOver.show(relativeTo: menuButton.bounds, of: menuButton, preferredEdge: NSRectEdge.minY)
+            }
+        }
+    }
+}

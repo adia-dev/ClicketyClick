@@ -23,6 +23,7 @@
 		F86357EC2AF5D4AB00C22E5A /* KeyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357EB2AF5D4AB00C22E5A /* KeyState.swift */; };
 		F86357F32AF5DCEE00C22E5A /* default_pressed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357F12AF5DB8200C22E5A /* default_pressed.m4a */; };
 		F86357F42AF5DCF100C22E5A /* default_released.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357F22AF5DB8200C22E5A /* default_released.m4a */; };
+		F86358112AF671C000C22E5A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86358102AF671C000C22E5A /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F86357EB2AF5D4AB00C22E5A /* KeyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyState.swift; sourceTree = "<group>"; };
 		F86357F12AF5DB8200C22E5A /* default_pressed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_pressed.m4a; sourceTree = "<group>"; };
 		F86357F22AF5DB8200C22E5A /* default_released.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_released.m4a; sourceTree = "<group>"; };
+		F86358102AF671C000C22E5A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		F86357B22AF5B74C00C22E5A /* ClicketyClick */ = {
 			isa = PBXGroup;
 			children = (
+				F863580E2AF671A700C22E5A /* Views */,
 				F86357E42AF5B84C00C22E5A /* Sounds */,
 				F86357B32AF5B74C00C22E5A /* ClicketyClickApp.swift */,
 				F86357B52AF5B74C00C22E5A /* ContentView.swift */,
@@ -163,6 +166,22 @@
 			);
 			name = Sounds;
 			path = ../../../../../Downloads/Sounds;
+			sourceTree = "<group>";
+		};
+		F863580E2AF671A700C22E5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F863580F2AF671AE00C22E5A /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F863580F2AF671AE00C22E5A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F86358102AF671C000C22E5A /* MenuView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86358112AF671C000C22E5A /* MenuView.swift in Sources */,
 				F86357E32AF5B7B400C22E5A /* SoundPlayer.swift in Sources */,
 				F86357EC2AF5D4AB00C22E5A /* KeyState.swift in Sources */,
 				F86357DF2AF5B78900C22E5A /* AppDelegate.swift in Sources */,
