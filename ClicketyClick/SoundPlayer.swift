@@ -9,30 +9,54 @@ import Foundation
 import AVFoundation
 
 class SoundPlayer {
-    var keyPressPlayer: AVAudioPlayer?
-    var keyReleasePlayer: AVAudioPlayer?
+    
+    private static var soundPlayers: [String: AVAudioPlayer] = [:]
+     private static let _initializer: Void = {
+         loadSounds()
+     }()
+    
+     private static func ensureInitialization() {
+         _ = _initializer
+     }
 
-    init() {
-        // Preload key press sound
-        if let keyPressURL = Bundle.main.url(forResource: "keyPressed", withExtension: "m4a") {
-            keyPressPlayer = try? AVAudioPlayer(contentsOf: keyPressURL)
-            keyPressPlayer?.prepareToPlay()
+    static func loadSounds() {
+        var soundIdentifiers: [String] = []
+        let states: [KeyState] = [.pressed, .released]
+        
+        for scalar in "abcdefghijklmnopqrstuvwxyz".unicodeScalars {
+            for state in states {
+                let soundIdentifier = "\(scalar)_\(state)"
+                soundIdentifiers.append(soundIdentifier)
+            }
         }
         
-        // Preload key release sound
-        if let keyReleaseURL = Bundle.main.url(forResource: "keyReleased", withExtension: "m4a") {
-            keyReleasePlayer = try? AVAudioPlayer(contentsOf: keyReleaseURL)
-            keyReleasePlayer?.prepareToPlay()
+        soundIdentifiers.append("default_pressed")
+        soundIdentifiers.append("default_released")
+        
+        for identifier in soundIdentifiers {
+            if let url = Bundle.main.url(forResource: identifier, withExtension: "m4a"),
+               let player = try? AVAudioPlayer(contentsOf: url) {
+                player.prepareToPlay()
+                soundPlayers[identifier] = player
+            }
+        }
+        
+        for (key, _) in soundPlayers {
+            print(key)
         }
     }
-    
-    func playKeyPressSound() {
-        keyPressPlayer?.currentTime = 0  // Reset to start if sound is in the middle
-        keyPressPlayer?.play()
-    }
-    
-    func playKeyReleaseSound() {
-        keyReleasePlayer?.currentTime = 0  // Reset to start if sound is in the middle
-        keyReleasePlayer?.play()
+
+    static func playSound(for keyName: String, state keyState: KeyState = .pressed) {
+        ensureInitialization()
+        
+        let soundKey = "\(keyName)_\(keyState)"
+        guard let player = soundPlayers[soundKey] else {
+            let defaultSoundKey = "default_\(keyState)"
+            soundPlayers[defaultSoundKey]?.currentTime = 0
+            soundPlayers[defaultSoundKey]?.play()
+            return
+        }
+        player.currentTime = 0
+        player.play()
     }
 }

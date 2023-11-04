@@ -9,14 +9,13 @@ import Foundation
 import Cocoa
 
 class KeyboardEventHandler: NSResponder {
-    let soundPlayer = SoundPlayer()
-
     func handle(event: NSEvent) {
+        guard let keyString = event.characters else { return }
         switch event.type {
         case .keyDown:
-            soundPlayer.playKeyPressSound()
+            SoundPlayer.playSound(for: keyString, state: .pressed)
         case .keyUp:
-            soundPlayer.playKeyReleaseSound()
+            SoundPlayer.playSound(for: keyString, state: .released)
         default:
             break
         }
