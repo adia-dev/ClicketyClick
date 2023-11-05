@@ -6,7 +6,7 @@
 //
 
 
-enum KeyState {
+enum KeyState: String, Codable {
     case pressed
     case released
     case hold

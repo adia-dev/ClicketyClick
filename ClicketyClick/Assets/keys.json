@@ -1,0 +1,1829 @@
+[
+  {
+    "code" : 36,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "return_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "return_pressed"
+    },
+    "state" : "pressed",
+    "code" : 36
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 76,
+    "state" : "released"
+  },
+  {
+    "code" : 76,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 48,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 48,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "code" : 49,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "space_released"
+    }
+  },
+  {
+    "code" : 49,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "space_pressed"
+    }
+  },
+  {
+    "code" : 51,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "backspace_released"
+    }
+  },
+  {
+    "code" : 51,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "backspace_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 53,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 53,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "code" : 55,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 55,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "code" : 56,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "state" : "pressed",
+    "code" : 56
+  },
+  {
+    "state" : "released",
+    "code" : 57,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 57,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 58,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 58,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 59,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 59,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 54,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 54,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 60,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 60,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 61,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 61,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 62
+  },
+  {
+    "code" : 62,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 123
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 123,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 124,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 124,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 125,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 125,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 126,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    },
+    "code" : 126,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 72,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 72,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 73,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 73,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "code" : 74,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 74,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 114,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 114,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 115
+  },
+  {
+    "code" : 115,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 116
+  },
+  {
+    "code" : 116,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 117,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 117,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 119,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    },
+    "state" : "pressed",
+    "code" : 119
+  },
+  {
+    "state" : "released",
+    "code" : 121,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 121,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 63
+  },
+  {
+    "code" : 63,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 122,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 122,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 120
+  },
+  {
+    "state" : "pressed",
+    "code" : 120,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "code" : 118,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 118,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 96
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+"path" : "generic_2_pressed"
+    },
+    "state" : "pressed",
+    "code" : 96
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 97,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 97,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 98,
+    "state" : "released"
+  },
+  {
+    "code" : 98,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 99,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 99,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 100,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 100,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 101
+  },
+  {
+    "code" : 101,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 109,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 109,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "code" : 103,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "code" : 103,
+    "state" : "pressed"
+  },
+  {
+    "code" : 111,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 111,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 105
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    },
+    "state" : "pressed",
+    "code" : 105
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 107
+  },
+  {
+    "code" : 107,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 113
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    },
+    "code" : 113,
+    "state" : "pressed"
+  },
+  {
+    "code" : 106,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 106,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 64,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 64,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 79
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    },
+    "state" : "pressed",
+   "code" : 79
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 80,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "code" : 80,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 90,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 90,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 0
+  },
+  {
+    "code" : 0,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 11,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 11,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 8,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 8,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 2,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "code" : 2,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 14,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 14,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 3,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 3,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 5,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 5,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "code" : 4,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 4,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 34,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "code" : 34,
+    "state" : "pressed"
+  },
+  {
+    "code" : 38,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    },
+    "state" : "pressed",
+    "code" : 38
+  },
+  {
+    "code" : 40,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 40,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 37
+  },
+  {
+    "state" : "pressed",
+    "code" : 37,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 46,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 46,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 45,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 45,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 31
+  },
+  {
+    "code" : 31,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "code" : 35,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "state" : "pressed",
+    "code" : 35
+  },
+  {
+    "code" : 12,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 12,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 15,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 15,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 1
+  },
+  {
+    "code" : 1,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 17,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 17,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "code" : 32,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 32,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 9,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 9,
+    "state" : "pressed"
+  },
+  {
+    "code" : 13,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    },
+    "code" : 13,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 7
+  },
+  {
+    "code" : 7,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 16,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    },
+    "state" : "pressed",
+    "code" : 16
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 6
+  },
+  {
+    "state" : "pressed",
+    "code" : 6,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 29,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext": "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 29,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 18,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 18,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 19,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "state" : "pressed",
+    "code" : 19
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 20
+  },
+  {
+    "state" : "pressed",
+    "code" : 20,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 21,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "state" : "pressed",
+    "code" : 21
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 23,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 23,
+    "state" : "pressed"
+  },
+  {
+    "code" : 22,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 22,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "code" : 26,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "code" : 26,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 28,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 28,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 25,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "code" : 25,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 24,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 24,
+    "state" : "pressed"
+  },
+  {
+    "code" : 27,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 27,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 41,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    },
+    "code" : 41,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 39,
+    "state" : "released"
+  },
+  {
+    "code" : 39,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 43,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "state" : "pressed",
+    "code": 43
+  },
+  {
+    "state" : "released",
+    "code" : 47,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 47,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 44,
+    "state" : "released"
+  },
+  {
+    "code" : 44,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 42,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 42,
+    "soundEffect" : {
+      "ext" : "mp3",
+
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 50,
+    "state" : "released"
+  },
+  {
+    "state" : "pressed",
+    "code" : 50,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 33
+  },
+  {
+    "code" : 33,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 30,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 30,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "code" : 65,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 65,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 67,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 67,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 69,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 69,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "code" : 71,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    },
+    "state" : "pressed",
+    "code" : 71
+  },
+  {
+    "state" : "released",
+    "code" : 75,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 75,
+    "state" : "pressed"
+  },
+  {
+    "state" : "released",
+    "code" : 76,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 76,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "code" : 78,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 78,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "code" : 81,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 81,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  },
+  {
+    "code" : 82,
+    "state" : "released",
+    "soundEffect" : {
+     "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 82,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "code" : 83,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 83,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 84
+  },
+  {
+    "code" : 84,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "code" : 85,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 85,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 86,
+    "state" : "released"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    },
+    "state" : "pressed",
+    "code" : 86
+  },
+  {
+    "code" : 87,
+    "state" : "released",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 87,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_4_pressed"
+    }
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "state" : "released",
+    "code" : 88
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_0_pressed"
+    },
+    "code" : 88,
+    "state" : "pressed"
+  },
+  {
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    },
+    "code" : 89,
+    "state" : "released"
+  },
+  {
+    "code" : 89,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_1_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 91,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "state" : "pressed",
+    "code" : 91,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_2_pressed"
+    }
+  },
+  {
+    "state" : "released",
+    "code" : 92,
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_released"
+    }
+  },
+  {
+    "code" : 92,
+    "state" : "pressed",
+    "soundEffect" : {
+      "ext" : "mp3",
+      "path" : "generic_3_pressed"
+    }
+  }
+]
+

@@ -16,7 +16,6 @@
 		F86357D22AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */; };
 		F86357DF2AF5B78900C22E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357DE2AF5B78900C22E5A /* AppDelegate.swift */; };
 		F86357E12AF5B7A300C22E5A /* KeyboardEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357E02AF5B7A300C22E5A /* KeyboardEventHandler.swift */; };
-		F86357E32AF5B7B400C22E5A /* SoundPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86357E22AF5B7B400C22E5A /* SoundPlayerService.swift */; };
 		F86357E82AF5B84C00C22E5A /* key.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E52AF5B84C00C22E5A /* key.m4a */; };
 		F86357E92AF5B84C00C22E5A /* a_released.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E62AF5B84C00C22E5A /* a_released.m4a */; };
 		F86357EA2AF5B84C00C22E5A /* a_pressed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357E72AF5B84C00C22E5A /* a_pressed.m4a */; };
@@ -25,7 +24,24 @@
 		F86357F42AF5DCF100C22E5A /* default_released.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F86357F22AF5DB8200C22E5A /* default_released.m4a */; };
 		F86358112AF671C000C22E5A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86358102AF671C000C22E5A /* MenuView.swift */; };
 		F8B479D52AF6D6BF001DF86B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B479D42AF6D6BF001DF86B /* SoundManager.swift */; };
-		F8B479D72AF6D827001DF86B /* InputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B479D62AF6D827001DF86B /* InputManager.swift */; };
+		F8B479D72AF6D827001DF86B /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B479D62AF6D827001DF86B /* KeyboardManager.swift */; };
+		F8D49F002AF8160A00BE6F29 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D49EFF2AF8160A00BE6F29 /* SoundEffect.swift */; };
+		F8D49F032AF81C2400BE6F29 /* KeyboardEventSoundDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D49F022AF81C2400BE6F29 /* KeyboardEventSoundDelegate.swift */; };
+		F8D49F052AF81D7600BE6F29 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D49F042AF81D7600BE6F29 /* Key.swift */; };
+		F8D49F072AF8259700BE6F29 /* DataLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D49F062AF8259700BE6F29 /* DataLoaderService.swift */; };
+		F8D49F092AF8277700BE6F29 /* keys.json in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F082AF8277700BE6F29 /* keys.json */; };
+		F8D49F172AF8279D00BE6F29 /* space_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F0B2AF8279D00BE6F29 /* space_pressed.mp3 */; };
+		F8D49F182AF8279D00BE6F29 /* generic_0_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F0C2AF8279D00BE6F29 /* generic_0_pressed.mp3 */; };
+		F8D49F192AF8279D00BE6F29 /* generic_3_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F0D2AF8279D00BE6F29 /* generic_3_pressed.mp3 */; };
+		F8D49F1A2AF8279D00BE6F29 /* space_released.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F0E2AF8279D00BE6F29 /* space_released.mp3 */; };
+		F8D49F1B2AF8279D00BE6F29 /* generic_1_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F0F2AF8279D00BE6F29 /* generic_1_pressed.mp3 */; };
+		F8D49F1C2AF8279D00BE6F29 /* backspace_released.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F102AF8279D00BE6F29 /* backspace_released.mp3 */; };
+		F8D49F1D2AF8279D00BE6F29 /* generic_released.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F112AF8279D00BE6F29 /* generic_released.mp3 */; };
+		F8D49F1E2AF8279D00BE6F29 /* generic_4_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F122AF8279D00BE6F29 /* generic_4_pressed.mp3 */; };
+		F8D49F1F2AF8279D00BE6F29 /* return_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F132AF8279D00BE6F29 /* return_pressed.mp3 */; };
+		F8D49F202AF8279D00BE6F29 /* backspace_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F142AF8279D00BE6F29 /* backspace_pressed.mp3 */; };
+		F8D49F212AF8279D00BE6F29 /* return_released.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F152AF8279D00BE6F29 /* return_released.mp3 */; };
+		F8D49F222AF8279D00BE6F29 /* generic_2_pressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8D49F162AF8279D00BE6F29 /* generic_2_pressed.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +75,6 @@
 		F86357D12AF5B74D00C22E5A /* ClicketyClickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicketyClickUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F86357DE2AF5B78900C22E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F86357E02AF5B7A300C22E5A /* KeyboardEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventHandler.swift; sourceTree = "<group>"; };
-		F86357E22AF5B7B400C22E5A /* SoundPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerService.swift; sourceTree = "<group>"; };
 		F86357E52AF5B84C00C22E5A /* key.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.m4a; sourceTree = "<group>"; };
 		F86357E62AF5B84C00C22E5A /* a_released.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_released.m4a; sourceTree = "<group>"; };
 		F86357E72AF5B84C00C22E5A /* a_pressed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_pressed.m4a; sourceTree = "<group>"; };
@@ -68,12 +83,29 @@
 		F86357F22AF5DB8200C22E5A /* default_released.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_released.m4a; sourceTree = "<group>"; };
 		F86358102AF671C000C22E5A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F8B479D42AF6D6BF001DF86B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		F8B479D62AF6D827001DF86B /* InputManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputManager.swift; sourceTree = "<group>"; };
+		F8B479D62AF6D827001DF86B /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		F8B479DC2AF813E2001DF86B /* key.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = key.m4a; sourceTree = "<group>"; };
 		F8B479DD2AF813E2001DF86B /* default_released.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_released.m4a; sourceTree = "<group>"; };
 		F8B479DE2AF813E2001DF86B /* a_released.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_released.m4a; sourceTree = "<group>"; };
 		F8B479DF2AF813E2001DF86B /* default_pressed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_pressed.m4a; sourceTree = "<group>"; };
 		F8B479E02AF813E2001DF86B /* a_pressed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_pressed.m4a; sourceTree = "<group>"; };
+		F8D49EFF2AF8160A00BE6F29 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		F8D49F022AF81C2400BE6F29 /* KeyboardEventSoundDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventSoundDelegate.swift; sourceTree = "<group>"; };
+		F8D49F042AF81D7600BE6F29 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		F8D49F062AF8259700BE6F29 /* DataLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderService.swift; sourceTree = "<group>"; };
+		F8D49F082AF8277700BE6F29 /* keys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keys.json; sourceTree = "<group>"; };
+		F8D49F0B2AF8279D00BE6F29 /* space_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F0C2AF8279D00BE6F29 /* generic_0_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_0_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F0D2AF8279D00BE6F29 /* generic_3_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_3_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F0E2AF8279D00BE6F29 /* space_released.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space_released.mp3; sourceTree = "<group>"; };
+		F8D49F0F2AF8279D00BE6F29 /* generic_1_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_1_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F102AF8279D00BE6F29 /* backspace_released.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backspace_released.mp3; sourceTree = "<group>"; };
+		F8D49F112AF8279D00BE6F29 /* generic_released.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_released.mp3; sourceTree = "<group>"; };
+		F8D49F122AF8279D00BE6F29 /* generic_4_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_4_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F132AF8279D00BE6F29 /* return_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = return_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F142AF8279D00BE6F29 /* backspace_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backspace_pressed.mp3; sourceTree = "<group>"; };
+		F8D49F152AF8279D00BE6F29 /* return_released.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = return_released.mp3; sourceTree = "<group>"; };
+		F8D49F162AF8279D00BE6F29 /* generic_2_pressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = generic_2_pressed.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +156,7 @@
 		F86357B22AF5B74C00C22E5A /* ClicketyClick */ = {
 			isa = PBXGroup;
 			children = (
+				F8D49F012AF81C1B00BE6F29 /* Delegates */,
 				F8B479E22AF81401001DF86B /* Services */,
 				F8B479E12AF813EC001DF86B /* Managers */,
 				F8B479DA2AF813DD001DF86B /* Assets */,
@@ -136,7 +169,6 @@
 				F86357BC2AF5B74D00C22E5A /* ClicketyClick.entitlements */,
 				F86357B92AF5B74D00C22E5A /* Preview Content */,
 				F86357DE2AF5B78900C22E5A /* AppDelegate.swift */,
-				F86357EB2AF5D4AB00C22E5A /* KeyState.swift */,
 			);
 			path = ClicketyClick;
 			sourceTree = "<group>";
@@ -199,6 +231,9 @@
 		F8B479D82AF8139A001DF86B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F86357EB2AF5D4AB00C22E5A /* KeyState.swift */,
+				F8D49EFF2AF8160A00BE6F29 /* SoundEffect.swift */,
+				F8D49F042AF81D7600BE6F29 /* Key.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +249,7 @@
 		F8B479DA2AF813DD001DF86B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F8D49F082AF8277700BE6F29 /* keys.json */,
 				F8B479DB2AF813E2001DF86B /* Sounds */,
 			);
 			path = Assets;
@@ -222,6 +258,7 @@
 		F8B479DB2AF813E2001DF86B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F8D49F0A2AF8279D00BE6F29 /* Cherry_MX_Browns */,
 				F8B479DF2AF813E2001DF86B /* default_pressed.m4a */,
 				F8B479DD2AF813E2001DF86B /* default_released.m4a */,
 				F8B479DC2AF813E2001DF86B /* key.m4a */,
@@ -235,7 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B479D42AF6D6BF001DF86B /* SoundManager.swift */,
-				F8B479D62AF6D827001DF86B /* InputManager.swift */,
+				F8B479D62AF6D827001DF86B /* KeyboardManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -243,9 +280,36 @@
 		F8B479E22AF81401001DF86B /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F86357E22AF5B7B400C22E5A /* SoundPlayerService.swift */,
+				F8D49F062AF8259700BE6F29 /* DataLoaderService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F8D49F012AF81C1B00BE6F29 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F8D49F022AF81C2400BE6F29 /* KeyboardEventSoundDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		F8D49F0A2AF8279D00BE6F29 /* Cherry_MX_Browns */ = {
+			isa = PBXGroup;
+			children = (
+				F8D49F0B2AF8279D00BE6F29 /* space_pressed.mp3 */,
+				F8D49F0C2AF8279D00BE6F29 /* generic_0_pressed.mp3 */,
+				F8D49F0D2AF8279D00BE6F29 /* generic_3_pressed.mp3 */,
+				F8D49F0E2AF8279D00BE6F29 /* space_released.mp3 */,
+				F8D49F0F2AF8279D00BE6F29 /* generic_1_pressed.mp3 */,
+				F8D49F102AF8279D00BE6F29 /* backspace_released.mp3 */,
+				F8D49F112AF8279D00BE6F29 /* generic_released.mp3 */,
+				F8D49F122AF8279D00BE6F29 /* generic_4_pressed.mp3 */,
+				F8D49F132AF8279D00BE6F29 /* return_pressed.mp3 */,
+				F8D49F142AF8279D00BE6F29 /* backspace_pressed.mp3 */,
+				F8D49F152AF8279D00BE6F29 /* return_released.mp3 */,
+				F8D49F162AF8279D00BE6F29 /* generic_2_pressed.mp3 */,
+			);
+			path = Cherry_MX_Browns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,10 +418,23 @@
 			files = (
 				F86357E82AF5B84C00C22E5A /* key.m4a in Resources */,
 				F86357F42AF5DCF100C22E5A /* default_released.m4a in Resources */,
+				F8D49F182AF8279D00BE6F29 /* generic_0_pressed.mp3 in Resources */,
 				F86357EA2AF5B84C00C22E5A /* a_pressed.m4a in Resources */,
+				F8D49F1A2AF8279D00BE6F29 /* space_released.mp3 in Resources */,
+				F8D49F1D2AF8279D00BE6F29 /* generic_released.mp3 in Resources */,
+				F8D49F222AF8279D00BE6F29 /* generic_2_pressed.mp3 in Resources */,
+				F8D49F1B2AF8279D00BE6F29 /* generic_1_pressed.mp3 in Resources */,
+				F8D49F192AF8279D00BE6F29 /* generic_3_pressed.mp3 in Resources */,
+				F8D49F1E2AF8279D00BE6F29 /* generic_4_pressed.mp3 in Resources */,
+				F8D49F1C2AF8279D00BE6F29 /* backspace_released.mp3 in Resources */,
+				F8D49F212AF8279D00BE6F29 /* return_released.mp3 in Resources */,
 				F86357E92AF5B84C00C22E5A /* a_released.m4a in Resources */,
+				F8D49F1F2AF8279D00BE6F29 /* return_pressed.mp3 in Resources */,
 				F86357F32AF5DCEE00C22E5A /* default_pressed.m4a in Resources */,
+				F8D49F202AF8279D00BE6F29 /* backspace_pressed.mp3 in Resources */,
+				F8D49F092AF8277700BE6F29 /* keys.json in Resources */,
 				F86357BB2AF5B74D00C22E5A /* Preview Assets.xcassets in Resources */,
+				F8D49F172AF8279D00BE6F29 /* space_pressed.mp3 in Resources */,
 				F86357B82AF5B74D00C22E5A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,13 +460,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D49F032AF81C2400BE6F29 /* KeyboardEventSoundDelegate.swift in Sources */,
 				F86358112AF671C000C22E5A /* MenuView.swift in Sources */,
+				F8D49F052AF81D7600BE6F29 /* Key.swift in Sources */,
 				F8B479D52AF6D6BF001DF86B /* SoundManager.swift in Sources */,
-				F86357E32AF5B7B400C22E5A /* SoundPlayerService.swift in Sources */,
+				F8D49F072AF8259700BE6F29 /* DataLoaderService.swift in Sources */,
+				F8D49F002AF8160A00BE6F29 /* SoundEffect.swift in Sources */,
 				F86357EC2AF5D4AB00C22E5A /* KeyState.swift in Sources */,
 				F86357DF2AF5B78900C22E5A /* AppDelegate.swift in Sources */,
 				F86357B62AF5B74C00C22E5A /* ContentView.swift in Sources */,
-				F8B479D72AF6D827001DF86B /* InputManager.swift in Sources */,
+				F8B479D72AF6D827001DF86B /* KeyboardManager.swift in Sources */,
 				F86357E12AF5B7A300C22E5A /* KeyboardEventHandler.swift in Sources */,
 				F86357B42AF5B74C00C22E5A /* ClicketyClickApp.swift in Sources */,
 			);

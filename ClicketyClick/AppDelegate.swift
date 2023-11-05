@@ -12,9 +12,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
     var popOver = NSPopover()
     var eventMonitor: Any?
+    
+    var keyboardEventSoundDelegate: KeyboardEventSoundDelegate = KeyboardEventSoundDelegate()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        InputManager.shared.setKeyboardDelegate(SoundManager.shared.soundPlayerService)
+        KeyboardManager.shared.setKeyboardDelegate(keyboardEventSoundDelegate)
         
         let accessEnabled = AXIsProcessTrustedWithOptions(
                     [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary)
@@ -22,8 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("Enabled the access to the keyboard: \(accessEnabled)")
 
         eventMonitor = NSEvent.addGlobalMonitorForEvents(matching: [.keyDown, .keyUp], handler: { event in
-            print("Hello World")
-            InputManager.shared.keyboardEventHandler.handle(event: event)  // Handle keyboard events
+            KeyboardManager.shared.keyboardEventHandler.handle(event: event)  // Handle keyboard events
         })
 
         let menuView = MenuView()
