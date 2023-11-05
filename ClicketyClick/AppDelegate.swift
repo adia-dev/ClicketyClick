@@ -14,7 +14,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var eventMonitor: Any?
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        InputManager.shared.setKeyboardDelegate(SoundManager.shared.soundPlayer)
+        InputManager.shared.setKeyboardDelegate(SoundManager.shared.soundPlayerService)
         
         let accessEnabled = AXIsProcessTrustedWithOptions(
                     [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary)

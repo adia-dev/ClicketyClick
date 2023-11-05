@@ -10,13 +10,13 @@ import Foundation
 class SoundManager {
     static let shared = SoundManager()
     
-    var soundPlayer: SoundPlayer
+    var soundPlayerService: SoundPlayerService
     
     private init() {
-        soundPlayer = SoundPlayer()
+        soundPlayerService = SoundPlayerService()
     }
     
     func playSound(for keyName: String, state keyState: KeyState = .pressed) {
-        soundPlayer.playSound(for: keyName, state: keyState)
+        soundPlayerService.playSound(for: keyName, state: keyState)
     }
 }

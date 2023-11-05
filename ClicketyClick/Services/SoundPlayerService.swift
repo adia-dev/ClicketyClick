@@ -1,5 +1,5 @@
 //
-//  SoundPlayer.swift
+//  SoundPlayerService.swift
 //  ClicketyClick
 //
 //  Created by Abdoulaye Dia on 04/11/2023.
@@ -9,7 +9,7 @@ import AVFoundation
 import Foundation
 import SwiftUI
 
-class SoundPlayer: KeyboardActionHandler {
+class SoundPlayerService: KeyboardActionHandler {
     private var soundPlayers: [String: AVAudioPlayer] = [:]
         
     init() {
