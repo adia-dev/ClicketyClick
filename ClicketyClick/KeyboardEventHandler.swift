@@ -9,15 +9,25 @@ import Foundation
 import Cocoa
 
 class KeyboardEventHandler: NSResponder {
+    var delegate: KeyboardActionHandler?
+    
     func handle(event: NSEvent) {
-        guard let keyString = event.characters else { return }
         switch event.type {
         case .keyDown:
-            SoundPlayer.playSound(for: keyString, state: .pressed)
+            delegate?.keyDown(with: event)
         case .keyUp:
-            SoundPlayer.playSound(for: keyString, state: .released)
+            delegate?.keyUp(with: event)
         default:
             break
         }
     }
+    
+    func setDelegate(_ newDelegate: KeyboardActionHandler?) {
+        delegate = newDelegate
+    }
+}
+
+protocol KeyboardActionHandler {
+    func keyDown(with event: NSEvent)
+    func keyUp(with event: NSEvent)
 }

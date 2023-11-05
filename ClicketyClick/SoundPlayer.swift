@@ -5,21 +5,18 @@
 //  Created by Abdoulaye Dia on 04/11/2023.
 //
 
-import Foundation
 import AVFoundation
+import Foundation
+import SwiftUI
 
-class SoundPlayer {
-    
-    private static var soundPlayers: [String: AVAudioPlayer] = [:]
-     private static let _initializer: Void = {
-         loadSounds()
-     }()
-    
-     private static func ensureInitialization() {
-         _ = _initializer
-     }
+class SoundPlayer: KeyboardActionHandler {
+    private var soundPlayers: [String: AVAudioPlayer] = [:]
+        
+    init() {
+        loadSounds()
+    }
 
-    static func loadSounds() {
+    func loadSounds() {
         var soundIdentifiers: [String] = []
         let states: [KeyState] = [.pressed, .released]
         
@@ -35,16 +32,15 @@ class SoundPlayer {
         
         for identifier in soundIdentifiers {
             if let url = Bundle.main.url(forResource: identifier, withExtension: "m4a"),
-               let player = try? AVAudioPlayer(contentsOf: url) {
+               let player = try? AVAudioPlayer(contentsOf: url)
+            {
                 player.prepareToPlay()
                 soundPlayers[identifier] = player
             }
         }
     }
 
-    static func playSound(for keyName: String, state keyState: KeyState = .pressed) {
-        ensureInitialization()
-        
+    func playSound(for keyName: String, state keyState: KeyState = .pressed) {
         let soundKey = "\(keyName)_\(keyState)"
         guard let player = soundPlayers[soundKey] else {
             let defaultSoundKey = "default_\(keyState)"
@@ -54,5 +50,16 @@ class SoundPlayer {
         }
         player.currentTime = 0
         player.play()
+    }
+    
+    func keyDown(with event: NSEvent) {
+        // You can extract the key character from the event if needed
+        guard let keyString = event.characters else { return }
+        playSound(for: keyString, state: .pressed)
+    }
+    
+    func keyUp(with event: NSEvent) {
+        guard let keyString = event.characters else { return }
+        playSound(for: keyString, state: .released)
     }
 }

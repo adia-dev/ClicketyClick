@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ... other keys ... -->
+    <key>CFBundleName</key>
+    <string>ClicketyClick</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.clicketyclick</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>We need access to monitor keyboard events to play mechanical keyboard sounds.</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>We need accessibility access to monitor keyboard events to play mechanical keyboard sounds.</string>
+    <!-- ... other keys ... -->
+</dict>
+</plist>
+
